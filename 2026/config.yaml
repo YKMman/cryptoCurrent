@@ -1,0 +1,7 @@
+Database:
+  Login: 'postgres'
+  Password: 'postgres'
+  Host: 'localhost'
+  Db: 'exchange_core'
+Http:
+  Port: 8001

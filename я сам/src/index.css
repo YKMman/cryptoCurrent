@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root{
+    height: 100%;
+}
+
+body{
+    overflow-x: hidden;
+    background: #010101;
+    font-family: 'Roboto', sans-serif;
+    /* background: #00150F; */
+}
+
+
+@layer components{
+    .container {
+        @apply max-w-[1440px] w-full m-auto px-[10px] minsm:px-[15px];
+    }
+}
